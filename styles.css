@@ -1,6 +1,7 @@
 .main-navbar {
     display: flex;
     justify-content: center;
+    
 }
 
 div .logo-name {
@@ -63,8 +64,68 @@ ul.navbar-nav {
     transform: translate(-50%, -50%);
 }
 
-img.banner-image:hover {
+.banner-inicio:hover  img.banner-image{
     transform: scale(1.2);
-    transition: .5s ease;
+    transition: .5s ease-in-out;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+.footer .join-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer .join-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer .join-text {
+    font-size: 24px;
+}
+
+.footer .join-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+a.footer-btn-unete,
+a.footer-btn-taller,
+a.footer-btn-apoya {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a.footer-btn-unete {
+    background-color: #ffd45a;
+}
+
+a.footer-btn-taller {
+    background-color: #008afc;
+}
+
+a.footer-btn-apoya {
+    background-color: #07cca6;
+}
+
+
 
